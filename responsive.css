@@ -1,0 +1,112 @@
+@media (max-width: 454px) {
+  header {
+    height: 7rem;
+  }
+  .header {
+    width: 100%;
+  }
+  .headerTop {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .headerBottom {
+    display: none;
+  }
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0;
+  }
+  .logo img {
+    width: 7rem;
+  }
+  .searchBar {
+    width: 90%;
+    height: 90%;
+    margin: 0.5rem 0;
+  }
+  .searchBar input {
+    font-size: 13px;
+    width: 100%;
+  }
+  .searchBar select {
+    display: none;
+  }
+  .searchBtn {
+    width: 15%;
+  }
+  .slider {
+    height: 22rem;
+  }
+  .sliderInfo {
+    width: 100%;
+    height: 100%;
+    padding-left: 0.5rem;
+  }
+  .status {
+    font-size: 0.8rem;
+  }
+  .title {
+    font-size: 1rem;
+    margin-bottom: 1.6rem;
+  }
+  .desc {
+    display: none;
+  }
+  .rightBar {
+    display: none;
+  }
+  .productContainer {
+    grid-template-columns: 1fr;
+  }
+  .showcaseProduct {
+    grid-template-columns: 1fr;
+  }
+  .serviceContainer {
+    grid-template-columns: 1fr;
+  }
+  .offer {
+    height: 225vh;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .card {
+    width: 100%;
+  }
+  #card1 ul {
+    row-gap: 0px;
+  }
+  .serviceContainer {
+    height: 130vh;
+    gap: 0;
+  }
+  .service {
+    height: 85%;
+  }
+  .product {
+    margin: auto;
+  }
+  .productTitle {
+    font-size: 1rem;
+  }
+  .productSubTitle {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .extraOffer {
+    height: 100%;
+    padding: 0.8rem;
+  }
+  .extraOfferName {
+    width: 75%;
+    font-size: 0.7rem;
+  }
+  .shopBtn button {
+    width: 6.5rem;
+    height: 36px;
+  }
+  .footerTop {
+    display: none;
+  }
+}
